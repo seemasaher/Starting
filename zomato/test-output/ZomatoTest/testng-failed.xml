@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ZomatoTest]">
+  <test name="ZomatoTest(failed)">
+    <classes>
+      <class name="TestScenario.Scenario1_OpenRegisterPage">
+        <methods>
+          <include name="getBrowser"/>
+          <include name="Scenario1"/>
+        </methods>
+      </class> <!-- TestScenario.Scenario1_OpenRegisterPage -->
+      <class name="TestScenario.Scenario2_FillRegisterationForm">
+        <methods>
+          <include name="getBrowser"/>
+          <include name="Scenario1"/>
+        </methods>
+      </class> <!-- TestScenario.Scenario2_FillRegisterationForm -->
+    </classes>
+  </test> <!-- ZomatoTest(failed) -->
+</suite> <!-- Failed suite [ZomatoTest] -->
